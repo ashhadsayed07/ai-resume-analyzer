@@ -9,3 +9,5 @@ export function formatSize(bytes: number): string {
 
   return `${value} ${sizeUnits[i]}`;
 }
+
+export const generateUUID = () => crypto .randomUUID();
