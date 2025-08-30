@@ -137,7 +137,7 @@ export const AIResponseFormat = `
 
 export const prepareInstructions = ({
   jobTitle,
-  jobDescription,
+  jobDescription
 }: {
   jobTitle: string;
   jobDescription: string;
